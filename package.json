@@ -1,0 +1,27 @@
+{
+  "name": "week5_hw",
+  "version": "1.0.0",
+  "description": "表單驗證",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llaurrrraa/week5_HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llaurrrraa/week5_HW/issues"
+  },
+  "homepage": "https://github.com/llaurrrraa/week5_HW#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-vue": "^8.4.1"
+  }
+}
