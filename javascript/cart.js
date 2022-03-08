@@ -91,6 +91,7 @@ const app = Vue.createApp({
                 product_id: cart.id,
                 qty: cart.qty,
             };
+            console.log("data:",data);
             this.isLoadingItem = cart.id;
             axios.put(`${apiUrl}/api/${apiPath}/cart/${cart.id}`,{ data })
                 .then( res => {
